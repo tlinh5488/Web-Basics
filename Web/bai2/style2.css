@@ -1,0 +1,97 @@
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    form {
+      width: 400px;
+      margin: auto auto;
+      border: 1px solid #000;
+      padding: 10px;
+      background-color: white;
+      margin-top: 100px;
+      box-shadow: black 1.5px 1.1px 1.1px;
+    }
+
+
+    .header {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 10px;
+
+    }
+
+    .Section-name {
+      background-color: #666666;
+      padding: 5px;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 5px;
+    }
+
+    .Section {
+      border: 1px solid #000;
+      margin-bottom: 10px;
+      background-color: white;
+    }
+
+
+
+    .form-group {
+      display: flex;
+      align-items: center;
+
+    }
+
+    label {
+      width: 150px;
+      margin-left: 5px;
+
+    }
+
+    input {
+      margin-bottom: 5px;
+      border: 2px solid #00CCFF;
+      background-color: #99FFFF;
+
+    }
+
+    .bat-buoc {
+      color: red;
+      margin-left: 5px;
+    }
+
+    button {
+      padding: 2px 20px;
+      border: 2px solid #00CCFF;
+      background-color: #99FFFF;
+
+    }
+
+    .button-dangky {
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+
+
+    }
+
+    .radio-nam {
+      border: 2px solid #00CCFF;
+      width: 20px;
+      height: 20px;
+      justify-content: center;
+      margin-left: 3px;
+      margin-bottom: 5px;
+      background-color: #99FFFF;
+    }
+
+    .radio-nu {
+      border: 2px solid #00CCFF;
+      width: 20px;
+      height: 20px;
+      justify-content: center;
+      margin-left: 30px;
+      margin-bottom: 5px;
+      background-color: #99FFFF;
+      color: black;
+    }

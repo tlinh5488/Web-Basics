@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bảng Điểm Sinh Viên</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="filters">
+            <label for="program">Chương trình đào tạo:</label>
+            <select id="program">
+                <option value="sptinhoc">Sư phạm Tin học</option>
+            </select>
+            <label for="year">Năm học:</label>
+            <select id="year">
+                <option value="all">Tất cả</option>
+            </select>
+            <label for="semester">Học kỳ:</label>
+            <select id="semester">
+                <option value="all">Tất cả</option>
+            </select>
+        </div>
+        <div class="notes">
+            <p>
+                <u><i>Ghi chú:</i></u> 
+                <br>1. Những môn có dấu <span class="red-star">(*)</span> sẽ không tính điểm trung bình mà chỉ là môn điều kiện.</br>
+            </p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Mã học phần</th>
+                    <th>Tên học phần</th>
+                    <th>Tín chỉ</th>
+                    <th>Điểm 10</th>
+                    <th>Điểm 4</th>
+                    <th>Điểm chữ</th>
+                    <th>Kết quả</th>
+                    <th>Chi tiết</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="year-header" colspan="9">Năm học : 2015-2016 - Học kỳ : HK01</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1511010038</td>
+                    <td>Đại số tuyến tính</td>
+                    <td>3.0</td>
+                    <td>9.3</td>
+                    <td>4.00</td>
+                    <td>A+</td>
+                    <td><img src="img/Dau.png" alt=""></td>
+                    <td><a href=""><img src="img/detail.png" alt=""></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>1511010050</td>
+                    <td>Giải tích 1</td>
+                    <td>3.0</td>
+                    <td>6.9</td>
+                    <td>2.50</td>
+                    <td>B</td>
+                    <td><img src="img/Dau.png" alt=""></td>
+                    <td><a href=""><img src="img/detail.png" alt=""></a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>1511050065</td>
+                    <td>Thực hành máy tính (lắp ráp, cài đặt, bảo trì)</td>
+                    <td>2.0</td>
+                    <td>7.5</td>
+                    <td>3.00</td>
+                    <td>B+</td>
+                    <td><img src="img/Dau.png" alt=""></td>
+                    <td><a href=""><img src="img/detail.png" alt=""></a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>1511050108</td>
+                    <td>Đại cương về Tin học</td>
+                    <td>3.0</td>
+                    <td>8.3</td><td>3.50</td>
+                    <td>A</td>
+                    <td><img src="img/Dau.png" alt=""></td>
+                    <td><a href=""><img src="img/detail.png" alt=""></a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>1511090061</td>
+                    <td>Tiếng Anh 1</td>
+                    <td>3.0</td>
+                    <td>7.5</td>
+                    <td>3.00</td>
+                    <td>B+</td>
+                    <td><img src="img/Dau.png" alt=""></td>
+                    <td><a href=""><img src="img/detail.png" alt=""></a></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>1511120001</td>
+                    <td>Giáo dục thể chất 1 *</td>
+                    <td>1.0</td>
+                    <td>8.9</td>
+                    <td>3.50</td>
+                    <td>A</td>
+                    <td><img src="img/Dau.png" alt=""></td>
+                    <td><a href=""><img src="img/detail.png" alt=""></a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>1511130045</td>
+                    <td>Những NLCB của chủ nghĩa Mác - Lênin 1</td>
+                    <td>2.0</td>
+                    <td>6.5</td>
+                    <td>2.50</td>
+                    <td>B</td>
+                    <td><img src="img/Dau.png" alt=""></td>
+                    <td><a href=""><img src="img/detail.png" alt=""></a></td>
+                </tr>
+                <tr>
+                    <td class="summary"  >
+                        <td colspan="3" style="vertical-align:bottom">
+                            - Tổng số tín chỉ: 17.0<br>
+                            - Số tín chỉ đạt: 17.0   Số tín chỉ không đạt: 0<br>
+
+                                - Điểm trung bình học kỳ (Hệ 10): 7.75 <br>
+                                - Điểm trung bình học kỳ (Hệ 4): 3.13
+                                - Điểm rèn luyện: 95
+                                - Xếp loại (RL): Xuất sắc
+                        </td>
+                        <td colspan="6">
+                            - Số tín chỉ tích lũy: 16<br>
+                            - Điểm trung bình tích lũy (Hệ 10): 7.75 <br>
+                            - Điểm trung bình tích lũy (Hệ 4): 3.13
+                    </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="year-header" colspan="9">Năm học : 2015-2016 - Học kỳ : HK02</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>1521010126</td>
+                    <td>Xác suất thống kê</td>
+                    <td>3.0</td>
+                    <td>5.6</td>
+                    <td>2.00</td>
+                    <td>C</td>
+                    <td><img src="img/Dau.png" alt=""></td>
+                    <td><a href=""><img src="img/detail.png" alt=""></a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>1521050035</td>
+                    <td>Ngôn ngữ lập trình bậc cao</td>
+                    <td>3.0</td>
+                    <td>5.9</td>
+                    <td>2.00</td>
+                    <td>C</td>
+                    <td><img src="img/Dau.png" alt=""></td>
+                    <td><a href=""><img src="img/detail.png" alt=""></a></td>
+                </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>1521050074</td>
+                        <td>Toán logic</td>
+                        <td>2.0</td>
+                        <td>6.0</td>
+                        <td>2.50</td>
+                        <td>B</td>
+                        <td><img src="img/Dau.png" alt=""></td>
+                        <td><a href=""><img src="img/detail.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>1521050082</td>
+                        <td>Hệ quản trị cơ sở dữ liệu (Access)</td>
+                        <td>3.0</td>
+                        <td>10.0</td>
+                        <td>4.00</td>
+                        <td>A+</td>
+                        <td><img src="img/Dau.png" alt=""></td>
+                        <td><a href=""><img src="img/detail.png" alt=""></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+    </html>

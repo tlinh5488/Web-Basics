@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Radio Button Messages</title>
+</head>
+<body>
+
+<p>Click on one of the radio buttons to see a message</p>
+
+<input type="radio" id="radio1" name="radioGroup" value="1">
+<label for="radio1">1:</label>
+
+<input type="radio" id="radio2" name="radioGroup" value="2">
+<label for="radio2">2:</label>
+
+<input type="radio" id="radio3" name="radioGroup" value="3">
+<label for="radio3">3:</label>
+
+<p id="message"></p>
+
+<script>
+const radio1 = document.getElementById('radio1');
+const radio2 = document.getElementById('radio2');
+const radio3 = document.getElementById('radio3');
+const message = document.getElementById('message');
+
+radio1.addEventListener('change', function() {
+  if (this.checked) {
+    message.textContent = "Tôi là số 1, cảm ơn đã chọn tôi";
+  }
+});
+
+radio2.addEventListener('change', function() {
+  if (this.checked) {
+    message.textContent = "Tôi là số 2, cảm ơn đã chọn tôi";
+  }
+});
+
+radio3.addEventListener('change', function() {
+  if (this.checked) {
+    message.textContent = "Tôi là số 3, cảm ơn đã chọn tôi";
+  }
+});
+</script>
+
+</body>
+</html>

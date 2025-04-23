@@ -1,0 +1,46 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0 10px;
+        }
+        header i {
+            font-size: 2rem;
+        }
+        /* Nút đăng nhập và đăng ký */
+        .auth-buttons {
+            margin-left: auto;  /* Đẩy nút sang bên phải */
+            margin-right: 20px;
+        }
+        .auth-buttons a {
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        .auth-buttons a:hover {
+            background-color: #0056b3;
+        }
+      /* Căn giữa navbar */
+      .navbar-nav {
+            display: flex;
+            justify-content: center; /* Căn giữa các mục trong navbar */
+            width: 100%;
+        }
+        /* Thêm một chút khoảng cách giữa các mục */
+        .navbar-nav li {
+            margin: 0 15px; /* Điều chỉnh khoảng cách giữa các mục */
+        }

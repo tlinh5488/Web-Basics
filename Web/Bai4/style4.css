@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.filters {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    padding: 5px;
+    font-weight: bold;
+   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.summary {
+    font-weight:bold; 
+    background-color:#f7eedf;
+}
+
+td {
+    border: 2px solid #747373;
+    text-align: left;
+    font-weight: 300;
+}
+
+
+th {
+    border: 2px solid #747373;
+    text-align: left;
+    background-color: white;
+}
+
+.notes {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.red-star {
+    color: red
+}
+
+.year-header {
+    color: blue;
+    background-color: #81c2f8;
+    font-weight: bold;
+}
